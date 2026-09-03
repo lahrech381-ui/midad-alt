@@ -6,6 +6,7 @@ import { Menu, X, Search } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "الرئيسية" },
+  { href: "/live/", label: "مباشر من IA" },
   { href: "/quran/", label: "القرآن الكريم" },
   { href: "/courses/", label: "السلاسل العلمية" },
   { href: "/lectures/", label: "المحاضرات" },

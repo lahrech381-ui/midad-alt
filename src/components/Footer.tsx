@@ -25,9 +25,10 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4">أقسام أخرى</h4>
             <ul className="space-y-2 text-sm text-emerald-200">
+              <li><Link href="/live/" className="hover:text-white transition-colors">مباشر من Internet Archives</Link></li>
               <li><Link href="/videos/" className="hover:text-white transition-colors">المرئيات</Link></li>
               <li><Link href="/scholars/" className="hover:text-white transition-colors">العلماء والدعاة</Link></li>
-              <li><Link href="/search/" className="hover:text-white transition-colors">بحث</Link></li>
+              <li><Link href="/search/" className="hover:text-white transition-colors">بحث محلي</Link></li>
             </ul>
           </div>
 
