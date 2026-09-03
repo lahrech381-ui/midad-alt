@@ -32,6 +32,21 @@ export const getSourates = (): Sourate[] => souratesData as Sourate[];
 export const getSourateByNumber = (num: number): Sourate | undefined =>
   (souratesData as Sourate[]).find((s) => s.number === num);
 
+export const getCategories = (): string[] => {
+  const cols = collectionsData as Collection[];
+  const cats = new Set(cols.map((c) => c.category));
+  return Array.from(cats);
+};
+
+export const getStats = () => {
+  return {
+    scholars: (scholarsData as Scholar[]).length,
+    collections: (collectionsData as Collection[]).length,
+    audioItems: (audioItemsData as AudioItem[]).length,
+    sourates: (souratesData as Sourate[]).length,
+  };
+};
+
 export const searchAll = (query: string): { type: string; items: (Scholar | Collection | AudioItem)[] }[] => {
   const q = query.toLowerCase();
   return [

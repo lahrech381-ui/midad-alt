@@ -43,3 +43,26 @@ export interface Sourate {
   ayah_count: number;
   juz: number | null;
 }
+
+export interface Book {
+  id: number;
+  title: string;
+  description: string | null;
+  author: string | null;
+  language: string | null;
+  ia_identifier: string | null;
+  image_url: string | null;
+  download_url: string | null;
+  category: string;
+}
+
+export interface Video {
+  id: number;
+  title: string;
+  description: string | null;
+  scholar: string | null;
+  ia_identifier: string | null;
+  image_url: string | null;
+  duration: number | null;
+  category: string;
+}

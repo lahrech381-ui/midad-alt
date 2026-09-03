@@ -1,11 +1,12 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CardItem } from "@/components/CardItem";
-import { getCollections, getScholars, getSourates } from "@/lib/data";
-import { BookOpen, Headphones, Mic, Users } from "lucide-react";
+import { getCollections, getScholars, getSourates, getStats } from "@/lib/data";
+import { BookOpen, Headphones, Mic, Users, ExternalLink } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
+  const stats = getStats();
   const quranCollections = getCollections("quran").slice(0, 4);
   const lectureCollections = getCollections("lectures").slice(0, 4);
   const scholars = getScholars().slice(0, 8);
@@ -21,30 +22,46 @@ export default function Home() {
             مداد البديل
           </h1>
           <p className="text-xl text-emerald-700 mb-8">
-            القرآن الكريم والدروس والمقالات والكتب والمرئيات
+            أكبر مكتبة صوتية إسلامية - مصدرها Internet Archives
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
             <div className="bg-white rounded-xl p-4 shadow-md border border-emerald-100">
               <Mic className="w-8 h-8 text-emerald-600 mx-auto mb-2" />
-              <p className="text-2xl font-bold text-emerald-900">114</p>
+              <p className="text-2xl font-bold text-emerald-900">{stats.sourates}</p>
               <p className="text-sm text-gray-600">سورة</p>
             </div>
             <div className="bg-white rounded-xl p-4 shadow-md border border-emerald-100">
               <Headphones className="w-8 h-8 text-purple-600 mx-auto mb-2" />
-              <p className="text-2xl font-bold text-emerald-900">1400+</p>
-              <p className="text-sm text-gray-600">محاضرة</p>
+              <p className="text-2xl font-bold text-emerald-900">{stats.audioItems.toLocaleString()}</p>
+              <p className="text-sm text-gray-600">ملف صوتي</p>
             </div>
             <div className="bg-white rounded-xl p-4 shadow-md border border-emerald-100">
               <BookOpen className="w-8 h-8 text-orange-600 mx-auto mb-2" />
-              <p className="text-2xl font-bold text-emerald-900">8</p>
-              <p className="text-sm text-gray-600">سلاسل</p>
+              <p className="text-2xl font-bold text-emerald-900">{stats.collections}</p>
+              <p className="text-sm text-gray-600">مجموعة</p>
             </div>
             <div className="bg-white rounded-xl p-4 shadow-md border border-emerald-100">
               <Users className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-              <p className="text-2xl font-bold text-emerald-900">10</p>
-              <p className="text-sm text-gray-600">علماء</p>
+              <p className="text-2xl font-bold text-emerald-900">{stats.scholars}</p>
+              <p className="text-sm text-gray-600">عالم وداعية</p>
             </div>
+          </div>
+
+          {/* Quick links */}
+          <div className="flex flex-wrap justify-center gap-3 mt-8">
+            <Link
+              href="/library/"
+              className="bg-emerald-600 text-white px-6 py-3 rounded-xl hover:bg-emerald-700 transition-colors font-medium"
+            >
+              📚 تصفح المكتبة
+            </Link>
+            <Link
+              href="/live/"
+              className="bg-white text-emerald-700 px-6 py-3 rounded-xl hover:bg-emerald-50 transition-colors font-medium border border-emerald-200"
+            >
+              🔍 بحث مباشر من Internet Archives
+            </Link>
           </div>
         </section>
 
@@ -112,6 +129,27 @@ export default function Home() {
                 </p>
               </Link>
             ))}
+          </div>
+        </section>
+
+        {/* Source attribution */}
+        <section className="bg-emerald-50 rounded-2xl p-6 border border-emerald-200">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">🌐</span>
+            <div>
+              <h3 className="font-bold text-emerald-900">المحتوى من Internet Archives</h3>
+              <p className="text-emerald-700 text-sm">
+                جميع الملفات الصوتية مسترجعة من Archive.org - أكبر مكتبة رقمية في العالم
+              </p>
+            </div>
+            <a
+              href="https://archive.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-600 hover:text-emerald-800"
+            >
+              <ExternalLink className="w-5 h-5" />
+            </a>
           </div>
         </section>
       </main>
