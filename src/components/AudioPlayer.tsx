@@ -6,7 +6,7 @@ import { Play, Pause, Volume2, VolumeX, SkipBack, SkipForward } from "lucide-rea
 interface AudioPlayerProps {
   src: string;
   title: string;
-  scholar?: string;
+  scholar?: string | null;
 }
 
 export function AudioPlayer({ src, title, scholar }: AudioPlayerProps) {
