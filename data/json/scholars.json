@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name_ar": "مشاري راشد العفاسي",
+    "name_en": "Mishary Rashid Alafasy",
+    "bio": "قارئ قرآن كريم كويتي مشهور بصوته العذب",
+    "image_url": "",
+    "ia_identifier": "MisharyRashidAlafasyQuranmp3.info"
+  },
+  {
+    "id": 2,
+    "name_ar": "مفتى منك",
+    "name_en": "Mufti Menk",
+    "bio": "عالم إسلامي زيمبابوي معروف بمحاضراته الملهمة",
+    "image_url": "",
+    "ia_identifier": "AbdallahKamelSura99AzZalzala_201906"
+  },
+  {
+    "id": 3,
+    "name_ar": "أبو عدنان",
+    "name_en": "Abu Adnan",
+    "bio": "داعية إسلامي محاضرات متنوعة",
+    "image_url": "",
+    "ia_identifier": "AdhereToQuranAndSunnah"
+  },
+  {
+    "id": 4,
+    "name_ar": "مشروع القرآن",
+    "name_en": "The Quran Project",
+    "bio": "مشروع تعليمي إسلامي",
+    "image_url": "",
+    "ia_identifier": "40-hadith-on-the-quran-the-quran-project"
+  },
+  {
+    "id": 5,
+    "name_ar": "دروس إسلامية",
+    "name_en": "Islamic Lessons",
+    "bio": "مجموعة دروس ودروس إسلامية متنوعة",
+    "image_url": "",
+    "ia_identifier": "islam-audio-lessons"
+  },
+  {
+    "id": 6,
+    "name_ar": "إنشاد إسلامي",
+    "name_en": "Islamic Nasheed",
+    "bio": "مجموعة نشيد إسلامي",
+    "image_url": "",
+    "ia_identifier": "background-nasheed-collection"
+  },
+  {
+    "id": 7,
+    "name_ar": "عبدالعزيز بن باز",
+    "name_en": "Abdul Aziz ibn Baz",
+    "bio": "Grand Mufti سابق للمملكة العربية السعودية",
+    "image_url": "",
+    "ia_identifier": ""
+  },
+  {
+    "id": 8,
+    "name_ar": "محمد صالح العثيمين",
+    "name_en": "Muhammad Salih al-Uthaymin",
+    "bio": "عالم إسلامي سعودي",
+    "image_url": "",
+    "ia_identifier": ""
+  },
+  {
+    "id": 9,
+    "name_ar": "سعود الشريم",
+    "name_en": "Saud Al-Shuraim",
+    "bio": "إمام وخطيب المسجد الحرام",
+    "image_url": "",
+    "ia_identifier": ""
+  },
+  {
+    "id": 10,
+    "name_ar": "عمر سليمان",
+    "name_en": "Omar Suleiman",
+    "bio": "عالم وداعية إسلامي أمريكي",
+    "image_url": "",
+    "ia_identifier": ""
+  }
+]

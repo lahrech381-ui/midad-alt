@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "القرآن الكريم - مشاري العفاسي",
+    "description": "القرآن الكريم كاملاً بصوت الشيخ مشاري راشد العفاسي",
+    "category": "quran",
+    "scholar_id": 1,
+    "scholar_name": "مشاري راشد العفاسي",
+    "ia_identifier": "MisharyRashidAlafasyQuranmp3.info",
+    "image_url": "",
+    "item_count": 114
+  },
+  {
+    "id": 2,
+    "title": "القرآن الكريم - تلاوات متنوعة",
+    "description": "مجموعة تلاوات قرآنية متنوعة",
+    "category": "quran",
+    "scholar_id": 1,
+    "scholar_name": "مشاري راشد العفاسي",
+    "ia_identifier": "quran_full",
+    "image_url": "",
+    "item_count": 114
+  },
+  {
+    "id": 3,
+    "title": "القرآن الكريم بالترجمة الإنجليزية",
+    "description": "القرآن الكريم مع ترجمة إنجليزية",
+    "category": "quran_translation",
+    "scholar_id": 1,
+    "scholar_name": "مشاري العفاسي - ترجمة إنجليزية",
+    "ia_identifier": "Al-Quran-with-English-Saheeh-International-Translation-Audio-MP3-HQ",
+    "image_url": "",
+    "item_count": 114
+  },
+  {
+    "id": 4,
+    "title": "محاضرات مفتى منك",
+    "description": "مجموعة محاضرات للشيخ مفتى منك",
+    "category": "lectures",
+    "scholar_id": 2,
+    "scholar_name": "مفتى منك",
+    "ia_identifier": "AbdallahKamelSura99AzZalzala_201906",
+    "image_url": "",
+    "item_count": 773
+  },
+  {
+    "id": 5,
+    "title": "محاضرات أبو عدنان",
+    "description": "مجموعة محاضرات ودروس للشيخ أبو عدنان",
+    "category": "lectures",
+    "scholar_id": 3,
+    "scholar_name": "أبو عدنان",
+    "ia_identifier": "AdhereToQuranAndSunnah",
+    "image_url": "",
+    "item_count": 501
+  },
+  {
+    "id": 6,
+    "title": "دروس إسلامية متنوعة",
+    "description": "مجموعة دروس إسلامية متنوعة في العقيدة والفقه والسير",
+    "category": "lectures",
+    "scholar_id": 5,
+    "scholar_name": "دروس إسلامية",
+    "ia_identifier": "islam-audio-lessons",
+    "image_url": "",
+    "item_count": 49
+  },
+  {
+    "id": 7,
+    "title": "40 حديثاً في القرآن",
+    "description": " серия من 40 حديثاً في فضل القرآن الكريم",
+    "category": "hadith",
+    "scholar_id": 4,
+    "scholar_name": "مشروع القرآن",
+    "ia_identifier": "40-hadith-on-the-quran-the-quran-project",
+    "image_url": "",
+    "item_count": 11
+  },
+  {
+    "id": 8,
+    "title": "إنشاد إسلامي - خلفيات",
+    "description": "مجموعة نشائد إسلامية للخلفيات",
+    "category": "nasheed",
+    "scholar_id": 6,
+    "scholar_name": "إنشاد إسلامي",
+    "ia_identifier": "background-nasheed-collection",
+    "image_url": "",
+    "item_count": 60
+  }
+]
